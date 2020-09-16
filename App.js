@@ -59,7 +59,7 @@ const App = () => {
 
   return (
     <>
-      < StatusBar translucent={true} barStyle='dark-content' backgroundColor="transparent"
+      < StatusBar translucent={true} barStyle='light-content' backgroundColor="#000000aa"
       />
       <View style={styles.container}>
         <MapView

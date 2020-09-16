@@ -16,7 +16,7 @@ const App = () => {
   const [visiblity, setVisiblity] = useState(false);
 
   const [setMarginOne, getMargin] = useState({
-    marginBottom: 5
+    marginBottom: 1
   });
 
   const [value, setValue] = useState("Enter name");
@@ -56,7 +56,7 @@ const App = () => {
   }
 
   let { latitude, longitude } = location.coordinate;
-  
+
   return (
     <>
       < StatusBar translucent={true} barStyle='dark-content' backgroundColor="transparent"
